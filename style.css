@@ -1,0 +1,223 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Body ==================== */
+
+body{
+    background-color: #e8e1dc;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Buttons and Links ==================== */
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 10px;
+    border: none;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.672);
+
+    width: 90%;
+    height: 2px;
+
+    color: black;
+    background: rgb(248, 243, 243);
+
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.btn:hover{
+    background: rgb(189, 189, 182);
+}
+
+.text-btn{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.fab{
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.name{
+    display: flex;
+    justify-content: space-around;
+
+    flex-direction: column;
+}
+
+.txt{
+    width: 200px;
+    margin-right: -10px;
+    
+}
+
+/* Icons ==================== */
+
+/* Youtube */
+.fa-youtube{
+    color: red;
+}
+
+/* Whatsapp */
+.fa-whatsapp{
+    color: green;
+}
+
+.fa-instagram{
+    color: rgb(189, 51, 133);
+}
+
+/* Header ==================== */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+    
+    margin-top: 30px;
+}
+
+.logo{
+    width: 85%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.672);
+
+
+    padding: 5px;
+    background-color: rgb(248, 243, 243);
+}
+
+/* Company name ==================== */
+
+.company{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    margin-top: 20px;
+    
+}
+
+
+.image-logo{
+    width: 88%;
+}
+
+
+
+/* Main ==================== */
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    width: 90%;
+
+    
+    
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    
+}
+
+/* Footer ==================== *  */
+
+footer{
+    text-align: center;
+    opacity: 0.6;
+}
+
+/* Media Query ==================== *  */
+
+@media only screen and (min-width: 800px){
+    .btn{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .logo{
+        width: 400px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.672);
+    
+    
+        padding: 5px;
+        background-color: rgb(248, 243, 243);
+    }
+
+    .image-logo{
+        width: 430px;
+    
+    }
+
+    .company{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    .text-btn{
+        display: flex;
+        
+        
+       
+
+    }
+
+    .txt{
+        
+        margin: 0%;
+    }
+
+    .txt1{
+        margin-left: -90px;
+    }
+
+    .txt2{
+        margin-left: -36px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 400px){
+    .btn{
+        padding: 28px;
+    }
+    .text-btn{
+        text-align: center;
+        font-size: 20px;
+        
+    }
+}
+
