@@ -149,6 +149,8 @@ main{
 footer{
     text-align: center;
     opacity: 0.6;
+    margin-bottom: 30px;
+
 }
 
 /* Media Query ==================== *  */
